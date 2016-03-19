@@ -1,0 +1,28 @@
+{
+  "name": "simpler-elastic",
+  "version": "0.0.1",
+  "stability": 2,
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.dominionenterprises.com/DMM-NODE/simpler-elastic.git"
+  },
+  "main": "simpler-elastic",
+  "scripts": {
+    "start": "node simpler-elastic.js",
+    "test": "node node_modules/lab/bin/lab -c --lint"
+  },
+  "dependencies": {
+    "underscore": "1.8.x"
+  },
+  "devDependencies": {
+    "code": "1.3.x",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^0.15.0",
+    "gulp-lab": "^1.0.5",
+    "lab": "git+https://@github.com:hapijs/lab.git"
+  },
+  "engines": {
+    "node": "0.12.x"
+  }
+}
