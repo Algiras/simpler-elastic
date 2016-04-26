@@ -5,7 +5,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.dominionenterprises.com/DMM-NODE/simpler-elastic.git"
+    "url": "https://github.com/Algiras/simpler-elastic.git"
   },
   "main": "simpler-elastic",
   "scripts": {
